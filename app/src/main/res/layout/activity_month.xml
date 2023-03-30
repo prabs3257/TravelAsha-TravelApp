@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <include
+
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar">
+
+    </include>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        android:layout_marginTop="13dp"
+        android:textColor="#FFFFFF"
+
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/monthView"
+
+        android:text="Month">
+
+    </TextView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/calCard"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:layout_constraintTop_toBottomOf="@id/monthView"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+
+
+
+            app:cardCornerRadius="22dp">
+
+
+    <com.github.sundeepk.compactcalendarview.CompactCalendarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="10dp"
+        android:id="@+id/compactcalendar_view"
+        android:layout_width="fill_parent"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_height="250dp"
+
+
+        app:compactCalendarTargetHeight="250dp"
+        app:compactCalendarTextSize="12sp"
+        app:compactCalendarBackgroundColor="@android:color/transparent"
+        app:compactCalendarTextColor="#FFFFFF"
+        app:compactCalendarCurrentSelectedDayBackgroundColor="#32b8c4"
+        app:compactCalendarCurrentDayBackgroundColor="#B71C1C"
+        app:compactCalendarMultiEventIndicatorColor="#32b8c4"
+        />
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+
+
+            android:id="@+id/descCard"
+            android:layout_weight="1"
+            app:cardBackgroundColor="#FFFFFF"
+            app:layout_constraintTop_toBottomOf="@id/calCard"
+            app:cardCornerRadius="22dp">
+
+            <TextView
+                android:breakStrategy="balanced"
+                android:id="@+id/descText"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-light"
+                android:padding="20dp"
+                android:textStyle="bold"
+                android:text="January the month of new beginnings. It’s the coldest month in most countries in the Northern hemisphere and the hottest month in areas of the Southern Hemisphere. With the Winter break extending to January for students and the working populace, step into the new year with your mind and body fully rejuvenated after a memorable holiday. Here are a few destination recommendations for you to make the new year a happening one for you."
+                android:textColor="#000000"
+                android:textSize="20sp"></TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            app:layout_constraintTop_toBottomOf="@id/descCard"
+            android:layout_width="300dp"
+
+            android:layout_height="60dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/internationalButton"
+            android:layout_marginTop="15dp"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+
+            android:background="@drawable/button"
+            android:text="International Destinations">
+
+        </Button>
+
+        <Button
+            app:layout_constraintTop_toBottomOf="@id/internationalButton"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@id/foot"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/domesticButton"
+            android:layout_marginTop="15dp"
+            android:textAllCaps="false"
+
+
+            android:background="@drawable/button"
+            android:text="Domestic Destinations">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/foot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="30dp"
+            android:textStyle="italic"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="Travelasha from\nDesigns 4 Trips India LLP"
+            android:gravity="center_horizontal"
+            app:layout_constraintTop_toBottomOf="@id/domesticButton">
+
+        </TextView>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "744837651008",
+    "firebase_url": "https://travelasha-d1653-default-rtdb.firebaseio.com",
+    "project_id": "travelasha-d1653",
+    "storage_bucket": "travelasha-d1653.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744837651008:android:a2174637826c7624eb5da5",
+        "android_client_info": {
+          "package_name": "com.prabs.travelasha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744837651008-0gnhs6u1rvsiodld20ue1samlmh3kl85.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prabs.travelasha",
+            "certificate_hash": "96c73f06f314ee3f7065c9400ec56db1f403792c"
+          }
+        },
+        {
+          "client_id": "744837651008-tg0pilrhpbd11f9t107s5c2qul9cs56m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcLsSHPtH2KxU9hc7JYlTipKfeGZdLFSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744837651008-tg0pilrhpbd11f9t107s5c2qul9cs56m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

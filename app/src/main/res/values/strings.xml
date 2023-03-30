@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Travelasha</string>
+    <string name="address_line">Designs 4 Trips India LLP
+\nS-7, Manish Abhinav Plaza,
+\nPlot NO.5, Sector – 5,
+\nDwarka, New Delhi
+\nPIN 110075</string>
+
+    <string name="phone_no1">+91-9650840065</string>
+    <string name="phone_no2">+91-9560826551</string>
+    <string name="email_no1">explore@designs4trips.com</string>
+    <string name="email_no2">support@designs4trips.com</string>
+    <string name="iceland">ICELAND to be spellbound by the dance of the Northern Lights, for some snowmobile adventures, jaw dropping surreal landscapes. The winters are bone chilling but the winter sights are simply out of the world</string>
+
+    <string name="otherpicks"><b>SRILANKAN</b> – Great weather
+
+RIO DE JANEIRO, BRAZIL – Summer time fun
+
+ARGENTINA – Summer time and a good time
+
+CAPE TOWN, SOUTH AFRICA – Warm summer month
+
+MALDIVES – Warm, tropical and little rain
+
+HONG KONG – Great weather and low humidity
+
+PHILIPPINES – Dry season and pleasant weather</string>
+</resources>
